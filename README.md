@@ -1,3 +1,3 @@
 # minesweeper
 
-![main workflow](https://github.com/github/docs/actions/workflows/dotnet.yml/badge.svg)
+![main workflow](https://github.com/johandrott/minesweeper/actions/workflows/dotnet.yml/badge.svg)
