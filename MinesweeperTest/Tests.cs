@@ -71,10 +71,10 @@ public class Tests
         
         
         // Act
-        var isValid = minefield.IsOutOfBounds(2, 2);
+        var isOutOfBounds = minefield.IsOutOfBounds(2, 2);
         
         // Assert
-        Assert.IsFalse(isValid);
+        Assert.IsFalse(isOutOfBounds);
     }
     
     [TestMethod]
@@ -84,9 +84,9 @@ public class Tests
         var minefield = new Minefield();
         
         // Act
-        var isValid = minefield.IsOutOfBounds(10, 20);
+        var isOutOfBounds = minefield.IsOutOfBounds(10, 20);
         
         // Assert
-        Assert.IsTrue(isValid);
+        Assert.IsTrue(isOutOfBounds);
     }
 }
